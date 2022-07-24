@@ -1,11 +1,12 @@
 *{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 h3{
     border-left: 2px solid ;
-    height: 200px;
+    height: 150px;
     font-size:2rem;
     font-weight: 700;
+    color: aqua;
 }
 input{
 border: none;
@@ -13,8 +14,20 @@ border-bottom: 2px solid white;
 }
 
 
+.container-fluid{
+    height: 80vh;
+    /* border: 2px solid red; */
+/* background-color: black !important; */
+}
+.col-md-4   
+{
+    background-color:black ;
+}
 
+.container-fluid{
+    background-color: aqua;
+}
 
-
-
-
+body{
+    background-color: aqua;
+}

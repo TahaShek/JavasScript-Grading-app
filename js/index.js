@@ -26,6 +26,10 @@ try {
       grades='You are fail'
     }
 
+
+
+    result.innerHTML=`Your marks ${totalMakrs} out of 400 <br> Your Percentage is ${per}% <br> Your grade is ${grades} `;
+
 } catch (error) {
     alert(error.message)
 }
